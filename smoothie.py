@@ -3,8 +3,6 @@ name_list = ["Rose, Elon"]
 name = "Rose"
 age = 22
 # I add only 2 users, for example Myself, and Elon Musk, he's not as important as me right now
-name = "Elon"
-age = 53
 # I start with a simple print of the name and age oonce the user logs onto the console and the second print line is a nice Greeting, the name oof the user and verification
 print (name, age)
 print ("Welcome,", name, ",in order to continue you must type a number below to verify yourself...")
