@@ -1,7 +1,7 @@
 #This is a Python Dev Calc App I created, starting with creating a window using Tkinter
 import tkinter as tk
 root = tk.Tk()
-root.title("My E-Calc App")
+root.title("Dev-Calc App")
 
 import math as math
 
