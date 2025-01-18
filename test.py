@@ -1,12 +1,17 @@
+#Welcome to my TEST of functions. This is a demostration of using functions in Python!
+
+#Importing my modules
 import tkinter 
 
 root = tkinter.Tk()
 root.title("Function Test")
 root.geometry("300x300")
 
+#defining lists for later app usage
 name = ["Mario, Luigi, Wario"]
 grocery = ["Bananas", "Oranges", "Apples"]
 
+#Defining valuses in the application for an add fuction
 a_value = 0
 b_value = 0
 result = 0
@@ -94,4 +99,5 @@ list_label.pack()
 get_list = tkinter.Button(root, text="Print", command=print_list)
 get_list.pack()
 
+#Start the mainloop() and run the application
 root.mainloop()
